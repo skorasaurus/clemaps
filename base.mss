@@ -22,23 +22,12 @@
 #landuse[zoom>12] {
   [type='cemetery']      { polygon-fill: @cemetery; }
   [type='college']       { polygon-fill: @school; }
-  [type='commercial']    { polygon-fill: @industrial; }
   [type='common']        { polygon-fill: @park; }
-  [type='forest']        { polygon-fill: @wooded; }
-  [type='golf_course']   { polygon-fill: @sports; }
-  [type='grass']         { polygon-fill: @grass; }
   [type='hospital']      { polygon-fill: @hospital; }
-  [type='industrial']    { polygon-fill: @industrial; }
   [type='park']          { polygon-fill: @park; }
-  [type='parking']       { polygon-fill: @parking; }
   [type='pedestrian']    { polygon-fill: @pedestrian_fill; }
-  [type='pitch']         { polygon-fill: @sports; }
-  [type='residential']   { polygon-fill: @residential; }
   [type='school']        { polygon-fill: @school; }
-  [type='sports_center'] { polygon-fill: @sports; }
-  [type='stadium']       { polygon-fill: @sports; }
   [type='university']    { polygon-fill: @school; }
-  [type='wood']          { polygon-fill: @wooded; }
 }
 
 #landuse_overlays[type='nature_reserve'][zoom>6] {

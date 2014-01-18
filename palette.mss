@@ -23,7 +23,8 @@ Map { font-directory: url(./fonts); }
 /* set up font sets for various weights and styles */
 @sans_lt:           "Open Sans Regular","DejaVu Sans Book","unifont Medium";
 @sans_lt_italic:    "Open Sans Italic","DejaVu Sans Italic","unifont Medium";
-@sans:              "Open Sans Semibold","DejaVu Sans Book","unifont Medium";
+@sans:              "Central Medium"; 
+  //"Open Sans Semibold","DejaVu Sans Book","unifont Medium";
 @sans_italic:       "Open Sans Semibold Italic","DejaVu Sans Italic","unifont Medium";
 @sans_bold:         "Open Sans Bold","DejaVu Sans Bold","unifont Medium";
 @sans_bold_italic:  "Open Sans Bold Italic","DejaVu Sans Bold Italic","unifont Medium";
@@ -38,7 +39,7 @@ Map { font-directory: url(./fonts); }
 /* ================================================================== */
 
 @land:              hsl(60, 20%, 100%);
-@water:             #E3FDFC; 
+@water:             #F3FFFE; 
 @grass:             #E6F2C1;
 @beach:             #FFEEC7;
 @park:              #DAF2C1;
@@ -50,11 +51,6 @@ Map { font-directory: url(./fonts); }
 @hospital:          rgb(229,198,195);
 @school:            #FFF5CC;
 @sports:            #B8E6B8;
-
-@residential:       @land * 0.98;
-@commercial:        @land * 0.97;
-@industrial:        @land * 0.96;
-@parking:           #EEE;
 
 /* ================================================================== */
 /* ROAD COLORS
