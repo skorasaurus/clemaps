@@ -24,8 +24,7 @@ Map { font-directory: url(./fonts); }
 @sans_lt:           "Open Sans Regular","DejaVu Sans Book","unifont Medium";
 @sans_lt_italic:    "Open Sans Italic","DejaVu Sans Italic","unifont Medium";
 @sans:              "Central Medium"; 
-  //"Open Sans Semibold","DejaVu Sans Book","unifont Medium";
-@sans_italic:       "Open Sans Semibold Italic","DejaVu Sans Italic","unifont Medium";
+@sans_italic:       "Central Light";
 @sans_bold:         "Open Sans Bold","DejaVu Sans Bold","unifont Medium";
 @sans_bold_italic:  "Open Sans Bold Italic","DejaVu Sans Bold Italic","unifont Medium";
 
