@@ -37,7 +37,6 @@ Map { font-directory: url(./fonts); }
 /* LANDUSE & LANDCOVER COLORS
 /* ================================================================== */
 
-@land:              hsl(60, 20%, 100%);
 @water:             #F3FFFE; 
 @grass:             #E6F2C1;
 @beach:             #FFEEC7;
@@ -64,7 +63,7 @@ Map { font-directory: url(./fonts); }
  *         inner fill (inline).
  */
 
-@motorway_line:     #E65C5C;
+@motorway_line:     #9FA9A8;
 @motorway_fill:     lighten(@motorway_line,10%);
 @motorway_case:     @motorway_line * 0.9;
 
@@ -72,29 +71,29 @@ Map { font-directory: url(./fonts); }
 @trunk_fill:        lighten(@trunk_line,10%);
 @trunk_case:        @trunk_line * 0.9;
 
-@primary_line:      #FFC859;
+@primary_line:      #9FA9A8;
 @primary_fill:      lighten(@primary_line,10%);
 @primary_case:      @primary_line * 0.9;
 
-@secondary_line:    #FFE873;
+@secondary_line:    #9FA9A8;
 @secondary_fill:    lighten(@secondary_line,10%);
 @secondary_case:    @secondary_line * 0.9;
 
-@standard_line:     @land * 0.85;
+@standard_line:     gray * 0.85;
 @standard_fill:     #fff;
-@standard_case:     @land * 0.9;
+@standard_case:     gray * 0.9;
 
 @pedestrian_line:   @standard_line;
 @pedestrian_fill:   #FAFAF5;
-@pedestrian_case:   @land;
+@pedestrian_case:   gray;
 
 @cycle_line:        @standard_line;
 @cycle_fill:        #FAFAF5;
-@cycle_case:        @land;
+@cycle_case:       gray;
 
 @rail_line:         #999;
 @rail_fill:         #fff;
-@rail_case:         @land;
+@rail_case:         gray;
 
 @aeroway:           #ddd;
 
@@ -133,7 +132,7 @@ Map { font-directory: url(./fonts); }
 @other_halo:        @place_halo;
 
 @locality_text:     #aaa;
-@locality_halo:     @land;
+@locality_halo:     gray;
 
 /* Also used for other small places: hamlets, suburbs, localities */
 @village_text:      #888;
