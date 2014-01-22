@@ -25,8 +25,8 @@ Map { font-directory: url(./fonts); }
 @sans_lt_italic:    "Open Sans Italic","DejaVu Sans Italic","unifont Medium";
 @sans:              "Central Medium"; 
 @sans_italic:       "Central Light";
-@sans_bold:         "Open Sans Bold","DejaVu Sans Bold","unifont Medium";
-@sans_bold_italic:  "Open Sans Bold Italic","DejaVu Sans Bold Italic","unifont Medium";
+@sans_bold:         "Central Bold"; 
+@sans_bold_italic:  "Central Bold";
 
 /* Some fonts are larger or smaller than others. Use this variable to
    globally increase or decrease the font sizes. */

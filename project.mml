@@ -1,19 +1,19 @@
 {
   "bounds": [
-    -81.8825,
-    41.3832,
-    -81.5295,
-    41.6013
+    -81.8559,
+    41.4043,
+    -81.54,
+    41.6008
   ],
   "center": [
-    -81.6943,
-    41.4757,
+    -81.7137,
+    41.4743,
     11
   ],
   "format": "png",
   "interactivity": false,
   "minzoom": 2,
-  "maxzoom": 19,
+  "maxzoom": 15,
   "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
   "Stylesheet": [
     "palette.mss",
@@ -656,5 +656,5 @@
   "_basemap": "",
   "attribution": "Data © OpenStreetMap (and) contributors, CC-BY-SA",
   "description": "",
-  "name": "basic_Cleveland"
+  "name": "citydirt"
 }
