@@ -19,14 +19,17 @@
 #landuse_gen0[zoom>3][zoom<=9],
 #landuse_gen1[zoom>9][zoom<=12],
 #landuse[zoom>12] {
-  [type='cemetery']      { polygon-fill: @cemetery; }
-  [type='college']       { polygon-fill: @school; }
+  [type='cemetery']      { polygon-fill: @cemetery; 
+                            polygon-opacity: 0.45; }
+  [type='college'],[type='school'],[type='university'] { 
+    polygon-fill: @school; 
+    polygon-opacity: 0.65; 
+  }
   [type='common']        { polygon-fill: @park; }
   [type='hospital']      { polygon-fill: @hospital; }
-  [type='park']          { polygon-fill: @park; }
+  [type='park']          { polygon-fill: @park; 
+   polygon-opacity: 0.5; }
   [type='pedestrian']    { polygon-fill: @pedestrian_fill; }
-  [type='school']        { polygon-fill: @school; }
-  [type='university']    { polygon-fill: @school; }
 }
 
 #landuse_overlays[type='nature_reserve'][zoom>6] {
@@ -42,11 +45,7 @@
   [zoom=11] { line-width: 1.5; }
   [zoom>=12] { line-width: 2.0; }
 }
- 
-#landuse_overlays[type='wetland'][zoom>11] {
-  [zoom>11][zoom<=14] { polygon-pattern-file:url(img/marsh-16.png); }
-  [zoom>14] { polygon-pattern-file:url(img/marsh-32.png);}
-  }
+
 
 /* ---- BUILDINGS ---- */
 #buildings[zoom>=12][zoom<=16] {
