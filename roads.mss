@@ -173,6 +173,7 @@ come in as well.
   }
 }
 
+/* THE INNER COLORS and widths*/ 
 
 #roads_high[zoom>=11][zoom<=20],
 #tunnel[render='3_inline'][zoom>=11][zoom<=20],
@@ -256,8 +257,8 @@ come in as well.
     [stylegroup='motorway'] { line-width: @rdz15_maj; }
     [stylegroup='mainroad'] { line-width: @rdz15_med; }
     [stylegroup='minorroad']{ line-width: @rdz15_min; }
-    [stylegroup='service']  { line-width: @rdz15_min / 3; }
-    [stylegroup='noauto']   { line-width: @rdz15_min / 4; line-dasharray: 1,1; }
+    [stylegroup='service']  { line-width: @rdz15_min / 3 + 1; }
+    [stylegroup='noauto']   { line-width: @rdz15_min / 3 + 1 ; line-dasharray: 1,1; }
     [stylegroup='railway']  { line-width: 1.5; }
   }
   [zoom=16] {
