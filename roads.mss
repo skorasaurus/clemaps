@@ -258,7 +258,7 @@ come in as well.
     [stylegroup='mainroad'] { line-width: @rdz15_med; }
     [stylegroup='minorroad']{ line-width: @rdz15_min; }
     [stylegroup='service']  { line-width: @rdz15_min / 3 + 1; }
-    [stylegroup='noauto']   { line-width: @rdz15_min / 3 + 1 ; line-dasharray: 1,1; }
+    [stylegroup='noauto']   { line-width: @rdz15_min / 3 + 1 ; line-dasharray: 4,1; }
     [stylegroup='railway']  { line-width: 1.5; }
   }
   [zoom=16] {
@@ -266,7 +266,7 @@ come in as well.
     [stylegroup='mainroad'] { line-width: @rdz16_med; }
     [stylegroup='minorroad']{ line-width: @rdz16_min; }
     [stylegroup='service']  { line-width: @rdz16_min / 3; }
-    [stylegroup='noauto']   { line-width: @rdz16_min / 4; line-dasharray: 2,1; }
+    [stylegroup='noauto']   { line-width: @rdz16_min / 4; line-dasharray: 4,1; }
     [stylegroup='railway']  { line-width: 2; }
   }
   [zoom=17] {
