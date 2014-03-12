@@ -279,13 +279,8 @@
     text-halo-fill: #fff;
     // Specific style overrides for different types of areas:
     [type='park'][zoom>=10] {
-      text-face-name: @sans_lt_italic;
-      text-fill: @park * 0.6;
+      text-face-name: @sans;
       text-halo-fill: lighten(@park, 10);
-    }
-    [type='golf_course'][zoom>=10] {
-      text-fill: @sports * 0.6;
-      text-halo-fill: lighten(@sports, 10);
     }
     [type='cemetery'][zoom>=10] {
       text-fill: @cemetery * 0.6;
