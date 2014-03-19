@@ -23,7 +23,7 @@ Map { font-directory: url(./fonts); }
 /* set up font sets for various weights and styles */
 @sans_lt:           "Open Sans Regular","DejaVu Sans Book","unifont Medium";
 @sans_lt_italic:    "Open Sans Italic","DejaVu Sans Italic","unifont Medium";
-@sans:              "Open Sans Semibold","DejaVu Sans Book","unifont Medium";
+@sans:              "Inform Regular";
 @sans_italic:       "Open Sans Semibold Italic","DejaVu Sans Italic","unifont Medium";
 @sans_bold:         "Open Sans Bold","DejaVu Sans Bold","unifont Medium";
 @sans_bold_italic:  "Open Sans Bold Italic","DejaVu Sans Bold Italic","unifont Medium";
@@ -37,11 +37,11 @@ Map { font-directory: url(./fonts); }
 /* LANDUSE & LANDCOVER COLORS
 /* ================================================================== */
 
-@land:              #ED0000;
-@water:             #C4DFF6;
+@land:              #E82C44;
+@water:             #3B13E7;
 @grass:             #E6F2C1;
 @beach:             #FFEEC7;
-@park:              #DAF2C1;
+@park:              #6edb6e;
 @cemetery:          #D6DED2;
 @wooded:            #C3D9AD;
 @agriculture:       #F2E8B6;
@@ -52,8 +52,6 @@ Map { font-directory: url(./fonts); }
 @sports:            #B8E6B8;
 
 @residential:       @land * 0.98;
-@commercial:        @land * 0.97;
-@industrial:        @land * 0.96;
 @parking:           #EEE;
 
 /* ================================================================== */
