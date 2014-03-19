@@ -37,7 +37,7 @@ Map { font-directory: url(./fonts); }
 /* LANDUSE & LANDCOVER COLORS
 /* ================================================================== */
 
-@land:              #FCFBE7;
+@land:              #ED0000;
 @water:             #C4DFF6;
 @grass:             #E6F2C1;
 @beach:             #FFEEC7;
@@ -69,7 +69,7 @@ Map { font-directory: url(./fonts); }
  *         inner fill (inline).
  */
 
-@motorway_line:     #E65C5C;
+@motorway_line:     white;
 @motorway_fill:     lighten(@motorway_line,10%);
 @motorway_case:     @motorway_line * 0.9;
 
@@ -77,7 +77,7 @@ Map { font-directory: url(./fonts); }
 @trunk_fill:        lighten(@trunk_line,10%);
 @trunk_case:        @trunk_line * 0.9;
 
-@primary_line:      #FFC859;
+@primary_line:      white;
 @primary_fill:      lighten(@primary_line,10%);
 @primary_case:      @primary_line * 0.9;
 
