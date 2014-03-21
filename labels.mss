@@ -287,6 +287,10 @@
       text-fill: @sports * 0.6;
       text-halo-fill: lighten(@sports, 10);
     }
+    [type='cemetery'][zoom>=10] {
+      text-fill: @cemetery * 0.6;
+      text-halo-fill: lighten(@cemetery, 10);
+    }
     [type='hospital'][zoom>=10] {
       text-fill: @hospital * 0.6;
       text-halo-fill: lighten(@hospital, 10);
@@ -435,7 +439,7 @@
   text-min-distance:60;
   text-size:11;
 }
-*/ 
+
 #minorroad_label[zoom>14] {
   text-name:'[name]';
   text-face-name:@sans;
@@ -447,7 +451,7 @@
   text-min-distance:60;
   text-size:11;
 }
-
+*/
 /* ================================================================== */
 /* ONE-WAY ARROWS
 /* ================================================================== */
