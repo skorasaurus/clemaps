@@ -20,13 +20,11 @@
 #landuse_gen0[zoom>3][zoom<=9],
 #landuse_gen1[zoom>9][zoom<=12],
 #landuse[zoom>12] {
-  [type='cemetery']      { polygon-fill: @cemetery; }
   [type='college']       { polygon-fill: @school; }
   [type='common']        { polygon-fill: @park; }
   [type='forest']        { polygon-fill: @wooded; }
   [type='golf_course']   { polygon-fill: @sports; }
   [type='grass']         { polygon-fill: @grass; }
-  [type='hospital']      { polygon-fill: @hospital; }
   [type='park']          { polygon-fill: @park; }
   [type='pedestrian']    { polygon-fill: @pedestrian_fill; }
   [type='pitch']         { polygon-fill: @sports; }
