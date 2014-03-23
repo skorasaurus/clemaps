@@ -68,7 +68,7 @@ Map { font-directory: url(./fonts); }
  */
 
 @motorway_line:     white;
-@motorway_fill:     lighten(@motorway_line,10%);
+@motorway_fill:     #E8909B;
 @motorway_case:     @motorway_line * 0.9;
 
 @trunk_line:        #E68A5C;

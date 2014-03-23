@@ -2,25 +2,7 @@
    ROAD & RAIL LINES
 /* ================================================================== */
 
-/* At lower zoomlevels, just show major automobile routes: motorways
-and trunks. */
 
-#roads_low[zoom>=5][zoom<=8] {
-  [type='motorway'] { line-color: @motorway_line; }
-  [type='trunk'] { line-color: @trunk_line; }
-  [zoom=5] {
-    [type='motorway'] { line-width: 0.4; }
-    [type='trunk'] { line-width: 0.2; } }
-  [zoom=6] {
-    [type='motorway'] { line-width: 0.5; }
-    [type='trunk'] { line-width: 0.25; } }
-  [zoom=7] {
-    [type='motorway'] { line-width: 0.6; }
-    [type='trunk'] { line-width: 0.3; } }
-  [zoom=8] {
-    [type='motorway'] { line-width: 1; }
-    [type='trunk'] { line-width: 0.5; } }
-}
 
 /* At mid-level scales start to show primary and secondary routes
 as well. */
@@ -322,27 +304,6 @@ come in as well.
   }
 }
 
-/* ---- Turning Circles --------------------------------------------- */
-#turning_circle_case[zoom>=14] {
-  marker-fill:@standard_fill;
-  marker-line-color:@standard_case;
-  marker-line-width:2;
-  marker-allow-overlap:true;
-}
-#turning_circle_fill[zoom>=14] {
-  marker-fill:@standard_fill;
-  marker-line-width:0;
-  marker-line-opacity:0;
-  marker-allow-overlap:true;
-}
-#turning_circle_case,
-#turning_circle_fill {
-  [zoom=14] { marker-width:@rdz14_min * 1.1; }
-  [zoom=15] { marker-width:@rdz15_min * 1.1; }
-  [zoom=16] { marker-width:@rdz16_min * 1.1; }
-  [zoom=17] { marker-width:@rdz17_min * 1.1; }
-  [zoom>=18] { marker-width:@rdz18_min * 1.1; }
-}
 
 /* ================================================================== */
 /* AEROWAYS
