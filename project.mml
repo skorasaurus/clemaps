@@ -549,7 +549,7 @@
     {
       "Datasource": {
         "dbname": "cleveosm2pgsql",
-        "extent": "-9114722.76,5070438.19,-9077106.66,5099595.26",
+        "extent": "-20037508.34 -20037508.34 20037508.34 20037508.34",
         "geometry_field": "way",
         "host": "localhost",
         "id": "area_label",
