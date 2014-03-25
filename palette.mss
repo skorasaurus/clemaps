@@ -54,6 +54,12 @@ Map { font-directory: url(./fonts); }
 @residential:       @land * 0.98;
 @parking:           #EEE;
 
+@basketball:  url('img/basketball-512x-seamless-psdgraphicsdotcom.png'); 
+/* @football
+@multi
+@baseball
+@tennis: */
+
 /* ================================================================== */
 /* ROAD COLORS
 /* ================================================================== */

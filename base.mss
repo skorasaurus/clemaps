@@ -34,6 +34,7 @@
   [type='stadium']       { polygon-fill: @sports; }
   [type='university']    { polygon-fill: @school; }
   [type='wood']          { polygon-fill: @wooded; }
+  [sport='basketball']    { polygon-pattern-file: @basketball; }
 }
 
 #landuse_overlays[type='nature_reserve'][zoom>6] {
