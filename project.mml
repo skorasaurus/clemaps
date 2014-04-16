@@ -113,7 +113,7 @@
     {
       "Datasource": {
         "dbname": "cleveosm2pgsql",
-        "extent": "-20037508.34,-20037508.34,20037508.34,20037508.34",
+       "extent": "-20037508.34 -20037508.34 20037508.34 20037508.34",
         "geometry_field": "way",
         "host": "localhost",
         "id": "landuse",
@@ -123,8 +123,7 @@
         "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
         "table": "( SELECT way, sport, way_area AS area, COALESCE(leisure, \"natural\", highway, amenity, tourism) AS type\n  FROM planet_osm_polygon\n  ORDER BY way_area DESC\n) AS data",
         "type": "postgis",
-        "user": "skors",
-        "extent_cache": "auto"
+        "user": "skors"
       },
       "class": "",
       "geometry": "polygon",
@@ -132,14 +131,7 @@
       "name": "landuse",
       "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "srs-name": "900913",
-      "status": "on",
-      "extent": [
-        -179.9999999749438,
-        -85.051,
-        179.9999999749438,
-        85.051
-      ],
-      "advanced": {}
+      "status": "on"
     },
     {
       "Datasource": {
