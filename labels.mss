@@ -440,12 +440,11 @@
   text-name:'[name]';
   text-face-name:@sans;
   text-placement:line;
-  text-size:9;
   text-fill:@road_text;
   text-halo-fill:@road_halo;
   text-halo-radius:1;
   text-min-distance:60;
-  text-size:11;
+  text-size:13;
 }
 
 /* ================================================================== */
