@@ -1,9 +1,9 @@
 {
   "bounds": [
-    -81.8787,
-    41.3922,
-    -81.5299,
-    41.5974
+    -81.8049,
+    41.4262,
+    -81.5666,
+    41.5352
   ],
   "center": [
     -81.6943,
@@ -12,8 +12,8 @@
   ],
   "format": "png",
   "interactivity": false,
-  "minzoom": 0,
-  "maxzoom": 18,
+  "minzoom": 11,
+  "maxzoom": 16,
   "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
   "Stylesheet": [
     "palette.mss",
@@ -113,7 +113,7 @@
     {
       "Datasource": {
         "dbname": "cleveosm2pgsql",
-       "extent": "-20037508.34 -20037508.34 20037508.34 20037508.34",
+        "extent": "-20037508.34 -20037508.34 20037508.34 20037508.34",
         "geometry_field": "way",
         "host": "localhost",
         "id": "landuse",
@@ -667,5 +667,5 @@
   "_basemap": "",
   "attribution": "Data © OpenStreetMap (and) contributors, CC-BY-SA",
   "description": "",
-  "name": "basic_Cleveland"
+  "name": "walkinginmemphis"
 }
