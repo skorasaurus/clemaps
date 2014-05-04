@@ -18,7 +18,9 @@
 }
 
 #landuse_gen1[zoom>9][zoom<=12],
-#landuse[zoom>12] {
+#landuse { 
+
+[zoom>12] {
   [type='college']       { polygon-fill: @school; }
   [type='common']        { polygon-fill: @park; }
   [type='forest']        { polygon-fill: @wooded; }
@@ -33,9 +35,19 @@
   [type='stadium']       { polygon-fill: @sports; }
   [type='university']    { polygon-fill: @school; }
   [type='wood']          { polygon-fill: @wooded; }
-  [sport='basketball']    { polygon-pattern-file: @basketball; }
+  
+  [sport='basketball']   {
+    marker-file: url('img/icon/basketball-12@2x.png');
+  }
 }
-
+[zoom>15] {
+[sport='basketball']    { polygon-pattern-file: @basketball; }
+}
+  
+/* POIS - icons need to be adjusted to only display until z 15 or so.. 
+  */   
+  
+}
 #landuse_overlays[type='nature_reserve'][zoom>6] {
   line-color: darken(@wooded,25%);
   line-opacity:  0.3;
