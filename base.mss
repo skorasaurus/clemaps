@@ -20,7 +20,7 @@
 #landuse_gen1[zoom>9][zoom<=12],
 #landuse { 
 
-[zoom>12] {
+ [zoom>12] {
   [type='college']       { polygon-fill: @school; }
   [type='common']        { polygon-fill: @park; }
   [type='forest']        { polygon-fill: @wooded; }
@@ -36,18 +36,14 @@
   [type='university']    { polygon-fill: @school; }
   [type='wood']          { polygon-fill: @wooded; }
   
-  [sport='basketball']   {
-    marker-file: url('img/icon/basketball-12@2x.png');
   }
 }
-[zoom>15] {
-[sport='basketball']    { polygon-pattern-file: @basketball; }
-}
+
   
 /* POIS - icons need to be adjusted to only display until z 15 or so.. 
   */   
   
-}
+
 #landuse_overlays[type='nature_reserve'][zoom>6] {
   line-color: darken(@wooded,25%);
   line-opacity:  0.3;
@@ -145,17 +141,19 @@ Map { background-color: @water; }
   }
 }
 
-/* ================================================================== */
-/* ADMINISTRATIVE BOUNDARIES
-/* ================================================================== */
 
 
-#admin[admin_level=2][zoom>1] {
-  line-color:@admin_2;
-  line-width:0.5;
-  [zoom=2] { line-opacity: 0.25; }
-  [zoom=3] { line-opacity: 0.3; }
-  [zoom=4] { line-opacity: 0.4; }
+
+
+#poi {
+  [zoom>13]{
+    [sport='basketball']   {
+      marker-file: url('img/icon/basketball-12@2x.png'); 
+    }  
+  }  
+   [zoom>15] {
+    [sport='basketball']    { 
+      polygon-pattern-file: @basketball; 
+    }
+   }
 }
-
-
