@@ -42,20 +42,6 @@
   
 /* POIS - icons need to be adjusted to only display until z 15 or so.. 
   */   
-  
-
-#landuse_overlays[type='nature_reserve'][zoom>6] {
-  line-color: darken(@wooded,25%);
-  line-opacity:  0.3;
-  line-dasharray: 1,1;
-  polygon-fill: darken(@wooded,25%);
-  polygon-opacity: 0.1;
-  [zoom=10] { line-width: 1.0; }
-  [zoom=11] { line-width: 1.5; }
-  [zoom>=12] { line-width: 2.0; }
-}
-
-
 
 // At the highest zoom levels, render buildings in fancy pseudo-3D.
 // Ordering polygons by their Y-position is necessary for this effect
@@ -129,15 +115,6 @@ Map { background-color: @water; }
     [zoom=17]{ line-width: 1; }
     [zoom=18]{ line-width: 1.5; }
     [zoom>18]{ line-width: 2; }
-  }
-  [type='ditch'],
-  [type='drain'] {
-    [zoom=15]{ line-width: 0.1; }
-    [zoom=16]{ line-width: 0.3; }
-    [zoom=17]{ line-width: 0.5; }
-    [zoom=18]{ line-width: 0.7; }
-    [zoom=19]{ line-width: 1; }
-    [zoom>19]{ line-width: 1.5; }
   }
 }
 

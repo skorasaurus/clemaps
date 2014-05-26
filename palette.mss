@@ -42,7 +42,6 @@ Map { font-directory: url(./fonts); }
 @grass:             #E6F2C1;
 @beach:             #FFEEC7;
 @park:              #6edb6e;
-@cemetery:          #D6DED2;
 @wooded:            #C3D9AD;
 @agriculture:       #F2E8B6;
 
