@@ -37,7 +37,7 @@ Map { font-directory: url(./fonts); }
 /* LANDUSE & LANDCOVER COLORS
 /* ================================================================== */
 
-@land:              #FCFBE7;
+@land:              #CECECE;
 @water:             #C4DFF6;
 @grass:             #E6F2C1;
 @beach:             #FFEEC7;
@@ -148,3 +148,13 @@ Map { font-directory: url(./fonts); }
 
 
 
+
+
+#donnie {
+  marker-file: url('marker-24.svg');
+  marker-width:26;
+  marker-fill:#f45;
+  marker-line-color:#813;
+  marker-allow-overlap:true;
+  marker-ignore-placement:true;
+}
