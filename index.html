@@ -3,8 +3,8 @@
   
   <head>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
-  <script src='http://api.tiles.mapbox.com/mapbox.js/v1.6.0/mapbox.js'></script>
-  <link href='http://api.tiles.mapbox.com/mapbox.js/v1.6.0/mapbox.css' rel='stylesheet' />
+  <script src='http://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.js'></script>
+  <link href='http://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.css' rel='stylesheet' />
   
   <style>
       body {
@@ -30,10 +30,12 @@
 
     L.control.layers({
     'Mellow': L.mapbox.tileLayer('skorasaurus.gnamp6k0'),
-    'City Dirt': L.mapbox.tileLayer('skorasaurus.clemaps')
+    'City Dirt': L.mapbox.tileLayer('skorasaurus.jvs1kg0c'),
+    'Memphis': L.mapbox.tileLayer('skorasaurus.clemaps')
+
     }).addTo(mappy);
 
-      map.setZoomRange(8, 15);
+      map.setZoomRange(8, 16);
 
     </script>
   </body>
