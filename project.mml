@@ -30,6 +30,7 @@
         "host": "localhost",
         "id": "land",
         "port": "5432",
+        "type": "shape",
         "project": "foss4g-2011",
         "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
         "user": "skors"
@@ -47,6 +48,7 @@
         "file": "http://tilemill-data.s3.amazonaws.com/osm/coastline-good.zip"
       },
       "class": "shp",
+      "type": "shape",
       "geometry": "polygon",
       "id": "processed_p",
       "name": "processed_p",
@@ -58,6 +60,7 @@
         "file": "http://tilemill-data.s3.amazonaws.com/osm/shoreline_300.zip"
       },
       "class": "shp",
+      "type": "shape",
       "geometry": "polygon",
       "id": "shoreline_300",
       "name": "shoreline_300",

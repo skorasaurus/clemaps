@@ -283,10 +283,6 @@
       text-fill: @park * 0.6;
       text-halo-fill: lighten(@park, 10);
     }
-    [type='golf_course'][zoom>=10] {
-      text-fill: @sports * 0.6;
-      text-halo-fill: lighten(@sports, 10);
-    }
     [type='hospital'][zoom>=10] {
       text-fill: @hospital * 0.6;
       text-halo-fill: lighten(@hospital, 10);

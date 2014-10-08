@@ -216,6 +216,7 @@ come in as well.
   [stylegroup='motorway'] {
     line-cap: round;
     line-join: round;
+    line-width: 0;
   }
   [stylegroup='noauto'] {
     line-join: round;
@@ -248,7 +249,7 @@ come in as well.
     [stylegroup='motorway'] { line-width: @rdz14_maj; }
     [stylegroup='mainroad'] { line-width: @rdz14_med; }
     [stylegroup='minorroad']{ line-width: @rdz14_min; }
-    [stylegroup='service']  { line-width: @rdz14_min / 3; }
+    // [stylegroup='service']  { line-width: @rdz14_min / 3; }
     [stylegroup='noauto']   { line-width: @rdz14_min / 4; line-dasharray: 1,1; }
     [stylegroup='railway']  { line-width: 1; }
   }

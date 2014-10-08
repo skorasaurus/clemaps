@@ -123,7 +123,7 @@ Map { background-color: @water; }
 
 
 #poi {
-  [zoom>13]{
+  [zoom>=13]{
     [sport='basketball']   {
       marker-file: url('img/icon/basketball-12@2x.png'); 
     }  
